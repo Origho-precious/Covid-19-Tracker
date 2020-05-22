@@ -1,0 +1,28 @@
+
+
+.wrapper{
+    max-width: 80%;
+    margin:5rem auto;
+}
+
+.feedback{
+    display: none;
+}
+
+.m-success{
+    color: green;
+    display: block;
+}
+
+.m-error{
+    color: red;
+    display: block;
+}
+
+.error{
+    border: 1px solid red
+}
+
+.success{
+    border: 1px solid green
+}

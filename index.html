@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Covid-19 Tracker</title>
+</head>
+<body>
+    <div id="container" class="container text-center mt-5">
+        <h1 class="display-6">Covid-19 Tracker</h1>
+        <h6 class="my-4">Search by Country to Know the stats</h6>
+        <p class="feedback"></p>
+        <form class="form-group d-md-flex w-50 m-auto">
+            <input type="search" id="search" class="form-control rounded" placeholder="Enter Country Name">
+            <button type="button" id="search-btn" class="btn btn-dark ml-md-3 px-5 mt-2 m-md-0">Search</button>
+        </form>
+
+        <div id="wrapper" class="wrapper"></div>
+
+    </div>
+    <footer class="container text-center">
+        <p>Developer: <a href="https://twitter.com/precious_origho" target="_blank">Origho Precious</a></p>
+        <p>API Source: <a href="https://documenter.getpostman.com/view/11144369/Szf6Z9B3?version=latest#07c318a5-21f2-460c-8ede-edd62dee7a54" target="_blank">POSTMAN (NOVELCOVID API)</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/Api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
