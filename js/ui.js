@@ -37,7 +37,7 @@ class UI {
                             <li class="list-group-item">Active Cases: ${w_data.active}</li>
                             <li class="list-group-item">Critical Cases: ${w_data.critical}</li>
                             <li class="list-group-item">Tests Done: ${w_data.tests}</li>
-                            <li class="list-group-item">Affected Countries: ${w_data.tests}</li>
+                            <li class="list-group-item">Affected Countries: ${w_data.affectedCountries}</li>
                         </ul>
                     </div>
                 </div>
